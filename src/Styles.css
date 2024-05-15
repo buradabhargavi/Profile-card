@@ -51,3 +51,29 @@ h1 {
   gap: 8px;
   font-weight: 500;
 }
+@media screen and (max-width: 500px) {
+  .card {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    width: 355px;
+    margin: 10px;
+  }
+  .data {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card {
+    width: 330px;
+    margin: 7px;
+  }
+  .data {
+    padding: 10px;
+    padding-top: 20px;
+  }
+}
